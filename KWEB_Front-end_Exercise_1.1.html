@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>KWEB Survey</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<div id="kweb-information">
+			<h1>KWEB Survey Page</h1>
+			<img src="https://i.imgur.com/hSSFVSw.png" alt="KWEB Logo" width="320">
+			<br>
+			<a id="kweb" href="https://kwebofficial.com/" title="KWEB" target="_self">KWEB Homepage</a>
+		</div>
+
+		<div id="question-1">
+			<h3>1. Write your name.</h3>
+			<input id="name" type="text" name="name">
+		</div>
+
+		<div id="question-2">
+			<h3>2. Write your student number.</h3>
+			<input id="student-number" type="text" name="student id">
+		</div>
+
+		<div id="question-3">
+			<h3>3. Select your member level.</h3>
+			<label class="member-level"><input type="radio" name="level" value="admin">Admin</label>
+			<label class="member-level"><input type="radio" name="level" value="intern">Intern</label>
+			<label class="member-level"><input type="radio" name="level" value="qualified">Qualified</label>
+		</div>
+
+		<div id="question-4">
+			<h3>4. Select all fields you are interested in.</h3>
+			<label class="member-field"><input type="checkbox" name="field" value="fe">Front-end</label>
+			<label class="member-field"><input type="checkbox" name="field" value="be">Back-end</label>
+			<label class="member-field"><input type="checkbox" name="field" value="wc">Web crawling</label>
+			<label class="member-field"><input type="checkbox" name="field" value="ws">Web security</label>
+			<label class="member-field"><input type="checkbox" name="field" value="etc">Etcetera
+			<input id="field-etc" type="text" name="etc"></label>
+		</div>
+
+		<div id="question-5">
+			<h3>5. Give us your overall evealution and feedback about the previous study.</h3>
+			<textarea id="member-answer" cols="90" rows="20" name="answer"></textarea>
+			<br>
+			<button id="submit-button" type="submit">Submit your answers</button>
+		</div>
+	</body>
+</html>

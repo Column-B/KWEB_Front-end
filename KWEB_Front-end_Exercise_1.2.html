@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div id="question-name">
+			<h3>Input username: </h3>
+			<input id="id" type="text" name="username">
+		</div>
+
+		<div id="question-pw">
+			<h3>Input password: </h3>
+			<input id="pw" type="password" name="password">
+		</div>
+
+		<div id="question-gender">
+			<h3>Gender: </h3>
+			<label><input class="user-gender" type="radio" name="gender" value="male">Male</label>
+			<label><input class="user-gender" type="radio" name="gender" value="female">Female</label>
+			<label><input class="user-gender" type="radio" name="gender" value="other">Other</label>
+		</div>
+
+		<div id="question-major">
+			<h3>Your Major: </h3>
+			<select id="major" name="major">
+				<option class="user-major" value="cs">Computer Science</option>
+				<option class="user-major" value="phy">Physics</option>
+				<option class="user-major" value="chm">Chemistry</option>
+				<option class="user-major" value="math">Mathematics</option>
+			</select>
+		</div>
+
+		<div id="question-intro">
+			<h3>Introduce yourself: </h3>
+			<textarea id="intro" cols="40" rows="5" placeholder="Introduce yourself" name="introduction"></textarea>
+		</div>
+	</body>
+</html>
